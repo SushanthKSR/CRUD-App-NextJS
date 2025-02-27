@@ -1,6 +1,6 @@
 # CRUD Application with Next.js, TailwindCSS, and DaisyUI
 
-A full-featured CRUD application that demonstrates how to build a modern web application using Next.js, TailwindCSS, and DaisyUI. The application interacts with the JSONPlaceholder API to perform CRUD operations on posts.
+A full-featured CRUD application that demonstrates a modern web application using Next.js, TailwindCSS, and DaisyUI. The application interacts with the JSONPlaceholder API to perform CRUD operations on posts.
 
 ## Features
 
@@ -40,52 +40,19 @@ A full-featured CRUD application that demonstrates how to build a modern web app
 2. Install dependencies:
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 3. Run the development server:
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-## Project Structure
-
-```
-├── app/                  # Next.js app directory
-│   ├── globals.css       # Global styles
-│   ├── layout.tsx        # Root layout component
-│   ├── page.tsx          # Home page
-│   ├── posts/            # Posts page
-│   └── providers.tsx     # React Query provider
-├── components/           # React components
-│   ├── CallToAction.tsx  # CTA section
-│   ├── CreatePostModal.tsx # Create post modal
-│   ├── EditPostModal.tsx # Edit post modal
-│   ├── Features.tsx      # Features section
-│   ├── Hero.tsx          # Hero section with parallax
-│   ├── Navbar.tsx        # Navigation bar
-│   └── PostCard.tsx      # Post card component
-├── lib/                  # Utility functions and types
-│   ├── api.ts            # API functions
-│   ├── schemas.ts        # Zod schemas
-│   ├── types.ts          # TypeScript types
-│   └── utils.ts          # Utility functions
-├── public/               # Static assets
-└── README.md             # Project documentation
-```
 
 ## Deployment
 
-This application can be easily deployed to Vercel:
-
-1. Push your code to a GitHub repository
-2. Import the repository to Vercel
-3. Vercel will automatically detect Next.js and deploy your application
+This application has been deployed to Vercel : https://crud-app-next-js-rho.vercel.app/
 
 ## Challenges and Solutions
 
@@ -100,11 +67,3 @@ This application can be easily deployed to Vercel:
 ### Challenge: Responsive Design
 
 **Solution**: Utilized TailwindCSS's responsive utilities and DaisyUI's responsive components to ensure the application works well on all device sizes.
-
-### Challenge: User Feedback
-
-**Solution**: Added toast notifications to provide immediate feedback for all user actions, improving the overall user experience.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
