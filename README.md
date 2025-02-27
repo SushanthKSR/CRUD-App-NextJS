@@ -22,14 +22,7 @@ A full-featured CRUD application that demonstrates a modern web application usin
 - **Zod**: Schema validation
 - **JSONPlaceholder API**: Fake REST API for testing and prototyping
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 14.x or later
-- npm or yarn
-
-### Installation
+### Installation for your system
 
 1. Clone the repository:
    ```bash
@@ -54,16 +47,12 @@ A full-featured CRUD application that demonstrates a modern web application usin
 
 This application has been deployed to Vercel : https://crud-app-next-js-rho.vercel.app/
 
-## Challenges and Solutions
+## Features:
 
-### Challenge: Managing State Across Components
+### Managing State Across Components
 
-**Solution**: Used React Query for global state management, which provides caching, refetching, and easy invalidation of data.
+Used React Query for global state management, which provides caching, refetching, and easy invalidation of data.
 
-### Challenge: Form Validation
+### Responsive Design
 
-**Solution**: Implemented Zod schemas with React Hook Form for robust form validation with TypeScript integration.
-
-### Challenge: Responsive Design
-
-**Solution**: Utilized TailwindCSS's responsive utilities and DaisyUI's responsive components to ensure the application works well on all device sizes.
+Utilized TailwindCSS's responsive utilities and DaisyUI's responsive components to ensure the application works well on all device sizes.
