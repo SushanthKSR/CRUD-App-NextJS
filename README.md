@@ -22,7 +22,8 @@ A full-featured CRUD application that demonstrates a modern web application usin
 - **Zod**: Schema validation
 - **JSONPlaceholder API**: Fake REST API for testing and prototyping
 
-![Project Screenshot]('public/Posts.png')
+
+[![Website Preview](public/Posts.png)](https://crud-app-next-q4x20o4x8-sushanthksrs-projects.vercel.app/)
 
 ### Installation for your system
 
