@@ -22,6 +22,8 @@ A full-featured CRUD application that demonstrates a modern web application usin
 - **Zod**: Schema validation
 - **JSONPlaceholder API**: Fake REST API for testing and prototyping
 
+![Project Screenshot]('public/Posts.png')
+
 ### Installation for your system
 
 1. Clone the repository:
